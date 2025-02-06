@@ -1,0 +1,7 @@
+#Data was imported from https://www.kaggle.com/competitions/titanic/data
+#The csv can be read on in the 'data' folder. However, it's easier to implement the following code in the main code:
+
+
+import kagglehub
+path = kagglehub.dataset_download("yasserh/titanic-dataset")
+print("Path to dataset files:", path)
